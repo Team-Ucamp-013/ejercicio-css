@@ -19,3 +19,6 @@
   width: 142px;
   height: 142px;
 }
+.btn {
+  border-radius: 500px !important;
+}
