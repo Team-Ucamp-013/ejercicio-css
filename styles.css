@@ -1,0 +1,214 @@
+/* * {
+  background-color: aqua;
+} */
+
+/* header {
+  position: fixed;
+}
+
+h1 {
+  text-align:center;
+  color:blue
+}
+
+header h1 {
+  color:blueviolet;
+}
+
+.lorem {
+  font-size: 20px;
+  color:#139439;
+}
+
+#elemento1 {
+  width: 50%;
+  border: red 3px solid;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+}
+
+#elemento1:hover {
+  background-color:#139439
+} */
+
+
+/* Google Clone */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient(90deg, #4ECDC4, #556270);
+  background-repeat: no-repeat */
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header nav .nav-right-section {
+  height: auto;
+  list-style-type: none;
+  position: relative;
+  display: inline;
+  float: right;
+}
+
+.nav-right-section li {
+  display: inline;
+}
+
+nav .nav-right-section a {
+  margin-right: 25px;
+  color: black;
+  /* background: -webkit-linear-gradient(#4ECDC4, #556270);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.nav-right-section .menu-icon {
+  background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+}
+
+.nav-right-section img {
+  border-radius: 50px;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-logo img {
+  width: 330px;
+  height: 120px;
+}
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto 35px auto;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+}
+
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+  background-image: url('https://img.icons8.com/android/24/000000/search.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+main .main-input .micro-icon {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+main .main-buttons div {
+  display: inline-block;
+}
+
+/* main .main-buttons button {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: 0;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 8px;
+  margin-right: 15px;
+  padding: 0 15px;
+} */
+
+.red-square {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+.red-square:hover {
+  width: 300px
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: none
+  }
+}
+
+@media screen and (min-width: 768px ) and ( max-width: 1023px ) {
+  body {
+    background: linear-gradient(90deg, #4ECDC4, #556270);
+    background-repeat: no-repeat   
+  }
+  header nav .nav-right-section {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background: linear-gradient(90deg, #1f4037, #99f2c8);
+    background-repeat: no-repeat   
+  }
+  header nav {
+    text-align: center;
+  }
+  header nav .nav-right-section {
+    float: none;
+  }
+  main .main-buttons {
+    display: none;
+  }
+}
